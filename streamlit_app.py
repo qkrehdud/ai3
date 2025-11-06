@@ -1,4 +1,4 @@
-# streamlit_py
+ # streamlit_py
 import os, re
 from io import BytesIO
 import numpy as np
@@ -74,6 +74,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
+
+    labels[0]:{"texts":["박정희는 대한민국의 경제성장을 이끈 대통령입니다"]},
+    labels[1]:{"texts":["윤석열은 대한민국의 대통령으로 2024년 12월 3일 계엄령을 선포하고 장렬히 탄핵당했다"]},
+    labels[2]:{"texts":["이명박은 빡빡이다"]},
+    labels[3]:{"texts":["이승만은 대한민국의 초대대통령이다"]},
 }
 
 # ======================
